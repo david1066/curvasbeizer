@@ -58,7 +58,7 @@ const loader = new THREE.GLTFLoader();
 
 function loadGltf() {
   loader.load(
-    '/modelo/eva-textured.glb',
+    'https://mega.nz/#!fktWjKjZ!71Z6sQg5r91QlzhIRdCmsaqMxzLm_yLIxKy6hDPQOL4',
     //onLoad
     function(gltf) {
       scene.add(gltf.scene);
