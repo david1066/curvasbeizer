@@ -58,7 +58,7 @@ const loader = new THREE.GLTFLoader();
 
 function loadGltf() {
   loader.load(
-    '../modelo/eva-textured.glb',
+    'modelo/eva-textured.glb',
     //onLoad
     function(gltf) {
       scene.add(gltf.scene);
