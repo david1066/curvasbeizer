@@ -58,7 +58,7 @@ const loader = new THREE.GLTFLoader();
 
 function loadGltf() {
   loader.load(
-    'https://github.com/david1066/curvasbeizer/tree/master/modelo',
+    'https://github.com/david1066/curvasbeizer/tree/master/modelo/eva-textured.glb',
     //onLoad
     function(gltf) {
       scene.add(gltf.scene);
